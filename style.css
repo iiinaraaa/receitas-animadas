@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 221, 227);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.imagem-principal {
+    border-radius: 120px;
+    width: 100px;
+    display: flex;;
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.titulo {
+    font-size: 50px;
+    color: rgb(230, 45, 168);
+}
+
+#divBusca{
+    background-color:#f39bed;
+    border:solid 2px rgb(201, 95, 174);
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:104px;
+    font-weight:bold;
+    background:rgb(214, 116, 181);
+  }
+
+
+
