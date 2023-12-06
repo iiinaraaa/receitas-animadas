@@ -1,14 +1,22 @@
+/* fontes
+    font-family: 'Pacifico', cursive;
+
+ */
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: rgb(255, 221, 227);
+    background: linear-gradient(68.15deg, rgb(255, 211, 218) 16.62%, white 85.61%);
+    margin: 30px;
     margin-top: 20px;
     margin-left: 30px;
 }
 
+/* header */
 .imagem-principal {
     border-radius: 120px;
     width: 100px;
@@ -33,12 +41,13 @@ main {
 
 .titulo {
     font-size: 50px;
-    color: rgb(230, 45, 168);
+    color: rgb(255, 160, 176);
+    font-family: 'Pacifico', cursive;
 }
 
 #divBusca{
-    background-color:#f39bed;
-    border:solid 2px rgb(201, 95, 174);
+    background-color:pink;
+    border:solid 2px pink;
     border-radius:10px;
     width:300px;
     height:32px;
@@ -61,8 +70,16 @@ main {
     border-radius:0 7px 7px 0;
     width:104px;
     font-weight:bold;
-    background:rgb(214, 116, 181);
+    background:pink;
   }
 
 
+  .meio {
+    border-top: 0.4px solid rgb(255, 160, 176);
+  }
+
+  .subtitulo {
+    margin-top: 30px;
+    
+  }
 
